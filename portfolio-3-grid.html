@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Title -->
+    <title>Portfolio</title>
+
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="plugins/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+
+    <!--fontawesome css-->
+    <link rel="stylesheet" href="plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!--lightbox Css-->
+    <link rel="stylesheet" href="plugins/lightbox-master/dist/ekko-lightbox.css">
+
+    <!--Themify css-->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+    <!--Animate css-->
+    <link rel="stylesheet" href="plugins/animate.css-master/animate.min.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--===============================================
+                preloader start here
+=================================================-->
+<div class="preloader-area">
+    <div class="preloader">
+        <img src="img/preloader.gif" alt="">
+    </div>
+</div>
+<!--==============================================
+               preloader end here
+===============================================-->
+
+<!--==============================================
+       scroll to top btn start here
+================================================-->
+<button id="myBtn" data-scroll-goto="0" title="Go to top" style="display: none;"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+<!--===============================================
+        scroll to top btn end here
+================================================-->
+
+<!--===============================================
+               Header top start here
+=================================================-->
+<div class="header-top">
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col-md-8">
+                <ul class="page-infomation list-inline">
+                    <li class="email text-center pr-4">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:info@sarosit.com"> info@sarosit.com</a>
+                    </li>
+                    <li class="mobile text-center pr-4">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:+123456789"> +(1234) 567 8900</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 info-center">
+                <ul class="social list-inline">
+                    <li class="mr-2">
+                        <a href="#"><span class="ti-facebook"></span></a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="#"><span class="ti-twitter"></span></a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="#"><span class="ti-google"></span></a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="#"><span class="ti-vimeo"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--===============================================
+               Header top end here
+=================================================-->
+
+<!--===============================================
+             Navbar start here
+=================================================-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="ti-menu"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <div class="search-icon d-block d-lg-none">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link  dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home
+                    </a>
+                    <ul class="dropdown-menu animated fadeIn fast">
+                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                        <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services-grid.html" id="navbarDropdown2" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu animated fadeIn fast">
+                        <li><a class="dropdown-item" href="services-grid.html">Services Grid</a></li>
+                        <li><a class="dropdown-item" href="services-list.html">Services List</a></li>
+                        <li><a class="dropdown-item" href="services-details.html">Services Details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-active" href="portfolio-2-grid.html" id="navbarDropdown3" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                    </a>
+                    <ul class="dropdown-menu animated fadeIn fast">
+                        <li><a class="dropdown-item" href="portfolio-2-grid.html">Portfolio 2 Grid</a></li>
+                        <li><a class="dropdown-item" href="portfolio-3-grid.html">Portfolio 3 Grid</a></li>
+                        <li><a class="dropdown-item" href="portfolio-4-grid.html">Portfolio 4 Grid</a></li>
+                        <li><a class="dropdown-item" href="image-project.html">Image Project</a></li>
+                        <li><a class="dropdown-item" href="youtube-project.html">Youtube Project</a></li>
+                        <li><a class="dropdown-item" href="slider-project.html">Slider Project</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown4" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Blog
+                    </a>
+                    <ul class="dropdown-menu animated fadeIn fast">
+                        <li><a class="dropdown-item" href="blog.html">Blog No Sidebar</a></li>
+                        <li><a class="dropdown-item" href="blog-leftsidebar.html">Blog Left Sidebar</a></li>
+                        <li><a class="dropdown-item" href="blog-rightsidebar.html">Blog Right Sidebar</a></li>
+                        <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown5" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shop
+                    </a>
+                    <ul class="dropdown-menu animated fadeIn fast">
+                        <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                        <li><a class="dropdown-item" href="shop-details.html">Shop Details</a></li>
+                        <li><a class="dropdown-item" href="checkout.html">Checkout Cart</a></li>
+                        <li><a class="dropdown-item" href="cart.html">Shoping Cart</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="team.html" id="navbarDropdown6" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu animated fadeIn fast">
+                        <li><a class="dropdown-item" href="team.html">Team</a></li>
+                        <li><a class="dropdown-item" href="login.html">Login Page</a></li>
+                        <li><a class="dropdown-item" href="register.html">Register Page</a></li>
+                        <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                        <li><a class="dropdown-item" href="404.html">404</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown7" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    <ul class="dropdown-menu animated fadeIn fast">
+                        <li><a class="dropdown-item" href="contact.html">Contact 1</a></li>
+                        <li><a class="dropdown-item" href="contact2.html">Contact 2</a></li>
+                        <li><a class="dropdown-item" href="contact3.html">Contact 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                    <a class="nav-link search-icon" href="#">
+                        <span class="ti-search"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Search box start here-->
+<div class="full-width search">
+    <div class="container">
+        <div class="src-frm">
+            <input type="search" placeholder="Search..">
+            <div class="close">
+                <span class="ti-close"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Search box end here-->
+<!--===============================================
+               Navbar end here
+=================================================-->
+
+<!--===============================================
+               page header start here
+=================================================-->
+<section class="page-header">
+    <div class="display-table">
+        <div class="table-cell">
+            <div class="container mt-5">
+                <div class="page_content">
+                    <h2><span>portfolio</span></h2>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">portfolio</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--===============================================
+               page header end here
+=================================================-->
+
+<!--===============================================
+         Portfolio Section Start Here
+=================================================-->
+<section id="portfolio">
+    <div class="container text-center pt-5 pb-5">
+        <div class="text-center section-head pb-4">
+            <h2>Our <span class="head-text-color">Portfolio</span></h2>
+            <p>Business consectetur adipisicing elit eiusmod tempor incididunt ut
+                labore et dolore magna aliqua quis nostrud exercitation consequat.</p>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div id="filters" class="button-group">
+                    <button class="button is-checked" data-filter="*">All Projects</button>
+                    <button class="button" data-filter=".web-design">Web design</button>
+                    <button class="button" data-filter=".transition">HTML5</button>
+                    <button class="button" data-filter=".logo-design">Responsive</button>
+                    <button class="button" data-filter=".brand">Zoomla</button>
+                    <button class="button" data-filter=".ui-design">UI design</button>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="row">
+                <div class="element-item brand web-design  col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project5.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project5.jpg" class="ti-search" data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+                <div class="element-item ui-design logo-design  col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project5.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project5.jpg" class="ti-search" data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+                <div class="element-item ui-design transition  col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project5.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project5.jpg" class="ti-search"  data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+                <div class="element-item web-design logo-design  col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project4.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project4.jpg" class="ti-search"  data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+                <div class="element-item ui-design  transition  col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project4.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project4.jpg" class="ti-search"  data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+                <div class="element-item brand web-design transition col-12 col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project4.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project4.jpg" class="ti-search"  data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+                <div class="element-item web-design logo-design  col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project6.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project6.jpg" class="ti-search"  data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+                <div class="element-item ui-design  transition  col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project6.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project6.jpg" class="ti-search"  data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+                <div class="element-item brand web-design transition col-12 col-lg-4 col-md-6 col-sm-6">
+                    <img src="img/project6.jpg" alt="" class="img-fluid">
+                    <div class="portfolio-overlay">
+                        <a href="img/project6.jpg" class="ti-search"  data-toggle="lightbox" data-title="Beautiful Image"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--===============================================
+         Portfolio Section end Here
+=================================================-->
+
+<!--===============================================
+        Footer widget part start here
+================================================-->
+<div class="footer-widget">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="footer-widget-logo ">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="footer-widget-content pb-4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, autem commodi debitis deserunt.
+                </div>
+                <div class="footer-widget-icons">
+                    <a href="javascript:void(0)"><span class="ti-twitter-alt"></span></a>
+                    <a href="javascript:void(0)"><span class="ti-vimeo-alt"></span></a>
+                    <a href="javascript:void(0)"><span class="ti-linkedin"></span></a>
+                    <a href="javascript:void(0)"><span class="ti-pinterest-alt"></span></a>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="quick-links ">
+                    <span class="mb-4">Quick Links</span>
+                    <ul class="pl-0 mt-4">
+                        <li class="mb-3"><a href="javascript:void(0)"><i class="fa fa-angle-double-right"
+                                                                         aria-hidden="true"></i> Market Analysis</a>
+                        </li>
+                        <li class="mb-3"><a href="javascript:void(0)"><i class="fa fa-angle-double-right"
+                                                                         aria-hidden="true"></i>
+                            Market Improvement</a></li>
+                        <li class="mb-3"><a href="javascript:void(0)"><i class="fa fa-angle-double-right"
+                                                                         aria-hidden="true"></i> Data Research
+                        </a></li>
+                        <li class="mb-3"><a href="javascript:void(0)"><i class="fa fa-angle-double-right"
+                                                                         aria-hidden="true"></i>
+                            Sale Services</a></li>
+                        <li><a href="javascript:void(0)"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                            Financial Planning</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="newsletter quick-links">
+                    <span>OUR SERVICES</span>
+                    <ul class="list-inline mt-4 ">
+                        <li class="mb-3"><a href="javascript:void(0)"><i class="fa fa-angle-double-right"
+                                                                         aria-hidden="true"></i> Planning and Advise
+                            Investments </a></li>
+                        <li class="mb-3"><a href="javascript:void(0)"><i class="fa fa-angle-double-right"
+                                                                         aria-hidden="true"></i>
+                            Research</a></li>
+                        <li class="mb-3"><a href="javascript:void(0)"><i class="fa fa-angle-double-right"
+                                                                         aria-hidden="true"></i>
+                            Data Support</a></li>
+                        <li class="mb-3"><a href="javascript:void(0)"><i class="fa fa-angle-double-right"
+                                                                         aria-hidden="true"></i>
+                            Market Analyze </a></li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                            Market planning
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="newsletter quick-links">
+                    <span>NEWSLETTER</span>
+                    <h6 class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est et expedita inventore
+                        labore quas
+                        rem.</h6>
+                </div>
+                <div class="subscribe-area mt-4">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Go</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--===============================================
+        Footer widget part end here
+================================================-->
+
+<!--===============================================
+        Footer bottom part start here
+================================================-->
+<div class="footer text-center">
+    &copy; 2018 <a href="index.html">Splash</a> All Right Reserved Designed By Pinky Malo
+</div>
+<!--===============================================
+        Footer bottom part end here
+================================================-->
+
+
+<!--include all js file-->
+
+<!-- JQuery -->
+<script src="plugins/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+
+<!-- Bootstrap js -->
+<script src="plugins/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+
+<!--Isotop Js-->
+<script src="js/isotope.min.js"></script>
+
+<!-- lightbox js -->
+<script src="plugins/lightbox-master/dist/ekko-lightbox.js"></script>
+<script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+</script>
+
+<!-- Custom script -->
+<script src="js/custom.js"></script>
+
+</body>
+</html>
